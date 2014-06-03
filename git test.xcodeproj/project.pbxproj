@@ -21,6 +21,7 @@
 		CB429EBA193D657C00462D8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB429E9C193D657C00462D8B /* UIKit.framework */; };
 		CB429EC2193D657D00462D8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB429EC0193D657D00462D8B /* InfoPlist.strings */; };
 		CB429EC4193D657D00462D8B /* git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB429EC3193D657D00462D8B /* git_testTests.m */; };
+		CB429ECF193D69D300462D8B /* RKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB429ECE193D69D300462D8B /* RKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CB429EBF193D657D00462D8B /* git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git testTests-Info.plist"; sourceTree = "<group>"; };
 		CB429EC1193D657D00462D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB429EC3193D657D00462D8B /* git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_testTests.m; sourceTree = "<group>"; };
+		CB429ECD193D69D300462D8B /* RKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTest.h; sourceTree = "<group>"; };
+		CB429ECE193D69D300462D8B /* RKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		CB429E8C193D657C00462D8B = {
 			isa = PBXGroup;
 			children = (
+				CB429ECD193D69D300462D8B /* RKTest.h */,
+				CB429ECE193D69D300462D8B /* RKTest.m */,
 				CB429E9E193D657C00462D8B /* git test */,
 				CB429EBD193D657D00462D8B /* git testTests */,
 				CB429E97193D657C00462D8B /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB429ECF193D69D300462D8B /* RKTest.m in Sources */,
 				CB429EA5193D657C00462D8B /* main.m in Sources */,
 				CB429EA9193D657C00462D8B /* RKAppDelegate.m in Sources */,
 				CB429EAF193D657C00462D8B /* RKViewController.m in Sources */,
